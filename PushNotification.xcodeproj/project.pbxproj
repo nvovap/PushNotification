@@ -12,6 +12,7 @@
 		03E8000C1CE9E33200B0574F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E8000A1CE9E33200B0574F /* Main.storyboard */; };
 		03E8000E1CE9E33200B0574F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E8000D1CE9E33200B0574F /* Assets.xcassets */; };
 		03E800111CE9E33200B0574F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E8000F1CE9E33200B0574F /* LaunchScreen.storyboard */; };
+		03E8001B1CE9F1B300B0574F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03E8001A1CE9F1B300B0574F /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		03E8000D1CE9E33200B0574F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E800101CE9E33200B0574F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E800121CE9E33200B0574F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E8001A1CE9F1B300B0574F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		03E800051CE9E33200B0574F /* PushNotification */ = {
 			isa = PBXGroup;
 			children = (
+				03E8001A1CE9F1B300B0574F /* 1.jpg */,
 				03E800061CE9E33200B0574F /* AppDelegate.swift */,
 				03E800081CE9E33200B0574F /* ViewController.swift */,
 				03E8000A1CE9E33200B0574F /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E8001B1CE9F1B300B0574F /* 1.jpg in Resources */,
 				03E800111CE9E33200B0574F /* LaunchScreen.storyboard in Resources */,
 				03E8000E1CE9E33200B0574F /* Assets.xcassets in Resources */,
 				03E8000C1CE9E33200B0574F /* Main.storyboard in Resources */,
