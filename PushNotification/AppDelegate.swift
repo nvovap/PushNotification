@@ -18,23 +18,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         
-        let replyAction = UIMutableUserNotificationAction()
-        replyAction.title = "Reply"
-        replyAction.identifier = "comment-reply"
-        replyAction.activationMode = .Background
-        replyAction.authenticationRequired = false
-        replyAction.behavior = .TextInput
-        
-        
-        let category = UIMutableUserNotificationCategory()
-        category.identifier = "reply"
-        category.setActions([replyAction], forContext: UIUserNotificationActionContext.Default)
-        
-        let settings = UIUserNotificationSettings(forTypes: [.Sound, .Alert], categories: [category])
-        
-        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
-        
-        UIApplication.sharedApplication().registerForRemoteNotifications()
+//        let replyAction = UIMutableUserNotificationAction()
+//        replyAction.title = "Reply"
+//        replyAction.identifier = "comment-reply"
+//        replyAction.activationMode = .Background
+//        replyAction.authenticationRequired = false
+//        replyAction.behavior = .TextInput
+//        
+//        
+//        let category = UIMutableUserNotificationCategory()
+//        category.identifier = "reply"
+//        category.setActions([replyAction], forContext: UIUserNotificationActionContext.Default)
+//        
+//        let settings = UIUserNotificationSettings(forTypes: [.Sound, .Alert], categories: [category])
+//        
+//        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+//        
+//        UIApplication.sharedApplication().registerForRemoteNotifications()
         
         return true
     }
